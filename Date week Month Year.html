@@ -1,0 +1,95 @@
+<html>
+<script>
+mydate=new Date();
+dow=mydate.getDay();
+m=mydate.getMonth();
+y=mydate.getFullYear();
+d=mydate.getDate();
+if(dow==0)
+{
+  cdow="Sunday";
+}
+if(dow==1)
+{
+  cdow="Monday";
+}
+if(dow==2)
+{
+  cdow="Tuesday";
+}
+if(dow==3)
+{
+  cdow="Wednesday";
+}
+if(dow==4)
+{
+  cdow="Thursday";
+}
+if(dow==5)
+{
+  cdow="Friday";
+}
+if(dow==6)
+{
+  cdow="Saturday";
+}
+
+if(m==0)
+{
+  cmonth="January";
+}
+if(m==1)
+{
+  cmonth="February";
+}
+if(m==2)
+{
+  cmonth="March";
+}
+if(m==3)
+{
+  cmonth="April";
+}
+if(m==4)
+{
+  cmonth="May";
+}
+if(m==5)
+{
+  cmonth="June";
+}
+if(m==6)
+{
+  cmonth="July";
+}
+if(m==7)
+{
+  cmonth="August";
+}
+if(m==8)
+{
+  cmonth="September";
+}
+if(m==9)
+{
+  cmonth="October";
+}
+if(m==10)
+{
+  cmonth="November";
+}
+if(m==11)
+{
+  cmonth="December";
+}
+
+
+document.write(cdow+" "+d+" "+cmonth+" "+y);
+
+</script>
+<title>Date and Time Example</title>
+<body>
+<form name=form1>
+</form>
+</body>
+</html>
